@@ -1,14 +1,16 @@
-# TS
+# TS Bank
 
-## Intitulé
+TypeScript fake bank management system.
+
+## Exercise topic
 ```
-Vous allez en POO simuler le fonctionnement d'une banque
-une banque a une liste de clients
-// un compte est associe au client
-la banque ou le client peut faire une demande de carte de bleue
-// carte bleue (XXXX XXXX XXXX XXXX - XX/XX - XXX, la date d'expiration c'est 5 ans apres la date de creation)
-le compte c'est un nombre genere aleatoirement de 7 chiffres, le client pourra deposer, retirer, consulter le solde de son compte
-Lorsque la banque enregistre un nouveau client, son compte est creer automatiquement
+The Bank has Clients.
+An account is associated to a client.
+The bank OR the client can ask for the creation of a bank card.
+The bank card must have these informations : XXXX XXXX XXXX XXXX - XX/XX - XXX, and the expiration date should be 5 years after the creation of the card.
+Account id is a random 7 digit characters.
+Client can withdraw, deposit and view balance.
+When the bank registers a new client, the corresponding account is initialized.
 ```
 
 ## Starting
